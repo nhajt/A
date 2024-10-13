@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-cache-v1';
+const CACHE_NAME = 'my-cache-v2';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -7,7 +7,20 @@ const urlsToCache = [
   '/video1.mp4',
   '/video2.mp4',
   '/icon-192x192.png',
-  '/icon-512x512.png'
+  '/icon-512x512.png',
+  // Thêm tất cả các tệp hình ảnh cần thiết vào đây
+  '/Nhẫn Đính Hôn Sapphire.jpg',
+  '/Nhẫn Bạc Ý Đính Đá CZ.jpg',
+  '/Bông tai ngọc trai.jpg',
+  '/Vòng Cổ Dancing Swan.jpg',
+  '/lactayco4la.jpg',
+  '/Lắc tay đá xanh.jpg',
+  '/Dây truyền trái tim.jpg',
+  '/Dây truyền hình bướm.jpg',
+  '/daytruyenbac.jpg',
+  '/trangsuc.jpg',
+  '/daytruyentang.jpg',
+  '/lactay.jpg'
 ];
 
 self.addEventListener('install', event => {
